@@ -58,4 +58,6 @@ public class Team<T extends Player> {
 	public int ranking() {
 		return (won * 2) + tied;
 	}
+	
+	
 }
